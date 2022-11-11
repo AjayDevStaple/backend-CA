@@ -1,0 +1,27 @@
+
+
+
+GET   /api/admin/documentNo     get no of document
+
+-----admin---------
+GET       api/admin/users          get all users expect admin      -d
+DELETE    api/admin/user/id        delete user expect admin
+POST      api/admin/doc            upload document                 -d
+GET       api/admin/list-doc       get list of doc of one user
+POST      api/auth/login           login                           -d                                  
+POST      api/auth/signup          signup                          -d
+PUT       api/admin/updateUser/id  update User                     -d
+
+-----users---------
+
+GET       api/user/mydocs        get all the documents of a user 
+POST      api/auth/login         login
+
+
+
+
+
+                                
+
+
+
